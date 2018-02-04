@@ -12,5 +12,6 @@ Attempt to craete tag system, following https://www.youtube.com/watch?v=_XJOT9C-
   3) apply changing schema for DB : ```bin/console doctrine:schema:update --force```
   4) generate entity Tag: ```bin/console doctrine:generate:entity```
   5) ```bin/console doctrine:generate:entities AppBundle```  ENTITIES (!!!)
+  6) apply changing schema for DB : ```bin/console doctrine:schema:update --force```
 
 
