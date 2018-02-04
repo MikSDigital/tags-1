@@ -36,7 +36,7 @@ class Post
     private $content;
 
     /**
-     * @ORM\ManyToMany(targetEntity="Tag")
+     * @ORM\ManyToMany(targetEntity="Tag", cascade={"persist"})
      */
 
     private $tags;
